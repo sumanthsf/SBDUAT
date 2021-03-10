@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdSales_CF_Product_Vertical__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Vertical (advertised product)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Full Game - Standard</fullName>
+                <default>false</default>
+                <label>Full Game - Standard</label>
+            </value>
+            <value>
+                <fullName>Full Game - Deluxe</fullName>
+                <default>false</default>
+                <label>Full Game - Deluxe</label>
+            </value>
+            <value>
+                <fullName>Add-on/DLC</fullName>
+                <default>false</default>
+                <label>Add-on/DLC</label>
+            </value>
+            <value>
+                <fullName>Pre-order</fullName>
+                <default>false</default>
+                <label>Pre-order</label>
+            </value>
+            <value>
+                <fullName>Game Demo</fullName>
+                <default>false</default>
+                <label>Game Demo</label>
+            </value>
+            <value>
+                <fullName>Full Game - VR</fullName>
+                <default>false</default>
+                <label>Full Game - VR</label>
+            </value>
+            <value>
+                <fullName>Live Service/Free to play</fullName>
+                <default>false</default>
+                <label>Live Service/Free to play</label>
+            </value>
+            <value>
+                <fullName>Free to Play</fullName>
+                <default>false</default>
+                <label>Free to Play</label>
+            </value>
+            <value>
+                <fullName>Movies - Home Entertainment</fullName>
+                <default>false</default>
+                <label>Movies - Home Entertainment</label>
+            </value>
+            <value>
+                <fullName>Movies - Theatrical</fullName>
+                <default>false</default>
+                <label>Movies - Theatrical</label>
+            </value>
+            <value>
+                <fullName>Automotive</fullName>
+                <default>false</default>
+                <label>Automotive</label>
+            </value>
+            <value>
+                <fullName>Consumer Packaged Goods</fullName>
+                <default>false</default>
+                <label>Consumer Packaged Goods</label>
+            </value>
+            <value>
+                <fullName>Quick Service Restaurants</fullName>
+                <default>false</default>
+                <label>Quick Service Restaurants</label>
+            </value>
+            <value>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+                <label>Apparel</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

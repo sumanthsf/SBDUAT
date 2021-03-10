@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>May select multiple types that apply to account</inlineHelpText>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Analyst</fullName>
+                <default>false</default>
+                <label>Analyst</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+                <label>Developer</label>
+            </value>
+            <value>
+                <fullName>Developer &amp; Publisher</fullName>
+                <default>false</default>
+                <label>Developer &amp; Publisher</label>
+            </value>
+            <value>
+                <fullName>DRM</fullName>
+                <default>false</default>
+                <label>DRM</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Incubator</fullName>
+                <default>false</default>
+                <label>Incubator</label>
+            </value>
+            <value>
+                <fullName>Integrator</fullName>
+                <default>false</default>
+                <label>Integrator</label>
+            </value>
+            <value>
+                <fullName>Middleware</fullName>
+                <default>false</default>
+                <label>Middleware</label>
+            </value>
+            <value>
+                <fullName>Middleware, Developer, and Publisher</fullName>
+                <default>false</default>
+                <label>Middleware, Developer, and Publisher</label>
+            </value>
+            <value>
+                <fullName>Middleware and Developer</fullName>
+                <default>false</default>
+                <label>Middleware and Developer</label>
+            </value>
+            <value>
+                <fullName>Movie Related</fullName>
+                <default>false</default>
+                <label>Movie Related</label>
+            </value>
+            <value>
+                <fullName>OEM/ODM</fullName>
+                <default>false</default>
+                <label>OEM/ODM</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Press</fullName>
+                <default>false</default>
+                <label>Press</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Publisher</fullName>
+                <default>false</default>
+                <label>Publisher</label>
+            </value>
+            <value>
+                <fullName>Research Agency</fullName>
+                <default>false</default>
+                <label>Research Agency</label>
+            </value>
+            <value>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+                <label>Reseller</label>
+            </value>
+            <value>
+                <fullName>Service Provider</fullName>
+                <default>false</default>
+                <label>Service Provider</label>
+            </value>
+            <value>
+                <fullName>Software Vendor</fullName>
+                <default>false</default>
+                <label>Software Vendor</label>
+            </value>
+            <value>
+                <fullName>Sony Affiliate</fullName>
+                <default>false</default>
+                <label>Sony Affiliate</label>
+            </value>
+            <value>
+                <fullName>Technology Partner</fullName>
+                <default>false</default>
+                <label>Technology Partner</label>
+            </value>
+            <value>
+                <fullName>Tool Provider</fullName>
+                <default>false</default>
+                <label>Tool Provider</label>
+            </value>
+            <value>
+                <fullName>Advertiser</fullName>
+                <default>false</default>
+                <label>Advertiser</label>
+            </value>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

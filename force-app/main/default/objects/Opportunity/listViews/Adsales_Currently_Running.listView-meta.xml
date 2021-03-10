@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adsales_Currently_Running</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Bill_To__c</columns>
+    <columns>AdSales_CF_Client_Solutions_Manager__c</columns>
+    <columns>Ad_Ops_Manager__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Actual_Close_Date__c</columns>
+    <columns>Opportunity_Start_Date__c</columns>
+    <columns>Opportunity_End_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.AdSales_RT_Opportunity</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>equals</operation>
+        <value>Natalie Ochoa,Adam Rabbani,Thomas Wolff,Elizabeth Berman,Timothy Fleming,Jarrett Couser,Sabine Cummins,Abril Jimenez,Stephanie Coleman,Conner Callahan</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Start_Date__c</field>
+        <operation>lessOrEqual</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Inventory Reserved,In Contract,Closed Won</value>
+    </filters>
+    <filters>
+        <field>Opportunity_End_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>Adsales - This Month&apos;s SIEA Campaigns</label>
+</ListView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdSales_Current_Month_Billable_Opps</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Agency_Name__c</columns>
+    <columns>Campaign_ID__c</columns>
+    <columns>AdSales_CF_Contract_Id__c</columns>
+    <columns>Client_Partner__c</columns>
+    <columns>AdSales_CF_Client_Solutions_Manager__c</columns>
+    <columns>Ad_Ops_Manager__c</columns>
+    <columns>Opportunity_Start_Date__c</columns>
+    <columns>Opportunity_End_Date__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>SAP_Customer_Num__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.AdSales_RT_Opportunity</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notContain</operation>
+        <value>TEST</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>equals</operation>
+        <value>Thomas Wolff,Timothy Fleming,Peter Basgen,Elizabeth Berman,Conner Callahan,Jarrett Couser,Adam Rabbani,Stephanie Coleman</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Start_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>4/1/2019</value>
+    </filters>
+    <filters>
+        <field>Opportunity_Start_Date__c</field>
+        <operation>lessOrEqual</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Inventory Reserved,In Contract,Closed Won</value>
+    </filters>
+    <filters>
+        <field>Opportunity_SAP_Status__c</field>
+        <operation>equals</operation>
+        <value>Not Ready for SAP</value>
+    </filters>
+    <label>AdSales - SIEA Not Ready for SAP</label>
+    <sharedTo>
+        <role>Account_Manager_CSM</role>
+        <role>Account_Manager_OPS</role>
+        <role>Client_Solution_Manager</role>
+        <role>Client_partners</role>
+        <role>OPS</role>
+    </sharedTo>
+</ListView>

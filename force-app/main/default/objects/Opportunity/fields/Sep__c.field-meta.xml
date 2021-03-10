@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sep__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Amount *((MAX((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c,09,30)-Opportunity_Start_Date__c),0)-MAX((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c,08,31)-Opportunity_Start_Date__c),0))-(Max((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c,09,30)-Opportunity_End_Date__c),0)-MAX((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c,08,31)-Opportunity_End_Date__c),0))+ if(AND((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c,09,30)-Opportunity_Start_Date__c)&gt;-1,(DATE($Setup.User_Selected_Year__c.User_Selected_FY__c,09,30)-Opportunity_Start_Date__c)&lt;31),1,0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Sep</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

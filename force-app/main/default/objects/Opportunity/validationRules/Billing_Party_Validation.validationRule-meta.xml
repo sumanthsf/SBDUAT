@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Party_Validation</fullName>
+    <active>true</active>
+    <description>Validation for Opportunity Stage that &quot;Bill-To&quot; party must be populated before it can be moved to &quot;Closed/Won&quot; or &quot;In Contract&quot; stage.</description>
+    <errorConditionFormula>AND(Bill_To__c ==null, OR(Text(StageName) = &apos;Closed Won&apos;, text(StageName) = &apos;In Contract&apos;))</errorConditionFormula>
+    <errorDisplayField>Bill_To__c</errorDisplayField>
+    <errorMessage>Bill-To party must be populated before it can be moved to &quot;Closed/Won&quot; or &quot;In Contract&quot; stage.</errorMessage>
+</ValidationRule>

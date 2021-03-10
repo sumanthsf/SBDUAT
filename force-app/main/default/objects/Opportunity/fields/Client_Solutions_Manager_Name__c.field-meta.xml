@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Solutions_Manager_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK( AdSales_CF_Client_Solutions_Manager__c )),  AdSales_CF_Client_Solutions_Manager__r.FirstName + &apos; &apos; + AdSales_CF_Client_Solutions_Manager__r.LastName, &apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Client Solutions Manager Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

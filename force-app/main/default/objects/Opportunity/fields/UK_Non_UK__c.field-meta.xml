@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UK_Non_UK__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(or(ISBLANK( Bill_To__c ),isblank( Bill_To__r.BillingCountry )),&quot;Waiting for info&quot;,if( OR(Bill_To__r.BillingCountry =&quot;United Kingdom&quot;,Bill_To__r.BillingCountry =&quot;UK&quot;),&quot;UK&quot;,&quot;NON UK&quot;))</formula>
+    <inlineHelpText>Based on Bill-To Account&apos;s Billing Country, determines whether billing is UK or NON UK for the purposes of calculating VAT</inlineHelpText>
+    <label>UK/Non UK</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Accounts</fullName>
+    <columns>Company_Logo__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Base_Title__c</columns>
+    <columns>Dashboard_Status_Notes__c</columns>
+    <columns>PlayStation_4__c</columns>
+    <columns>PlayStation_TV__c</columns>
+    <columns>NDA__c</columns>
+    <columns>TLA__c</columns>
+    <columns>Modelling__c</columns>
+    <columns>App_Demo_for_BAS_Submission__c</columns>
+    <columns>BAS__c</columns>
+    <columns>APDA__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My Accounts</label>
+</ListView>

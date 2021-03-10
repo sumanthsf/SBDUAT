@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Net_Ads_Accounts_External_IDs</fullName>
+    <columns>Territory__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>SAP_Account_Name__c</columns>
+    <columns>SAP_Customer_No__c</columns>
+    <columns>VAT_No__c</columns>
+    <columns>Tax_Code__c</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory__c</field>
+        <operation>equals</operation>
+        <value>SIEE</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notContain</operation>
+        <value>global</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notContain</operation>
+        <value>test</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.LAST_UPDATE</field>
+        <operation>greaterThan</operation>
+        <value>6/10/2020 12:00 AM</value>
+    </filters>
+    <label>Ad Sales - Advertisers External IDs</label>
+</ListView>

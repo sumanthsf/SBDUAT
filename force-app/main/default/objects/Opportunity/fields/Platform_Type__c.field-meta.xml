@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Platform Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PlayStation®4</fullName>
+                <default>false</default>
+                <label>PlayStation®4</label>
+            </value>
+            <value>
+                <fullName>PlayStation®Vita</fullName>
+                <default>false</default>
+                <label>PlayStation®Vita</label>
+            </value>
+            <value>
+                <fullName>PlayStation®3</fullName>
+                <default>false</default>
+                <label>PlayStation®3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Game_App_Types__c</fullName>
+    <externalId>false</externalId>
+    <label>Non-Game App Types</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>App_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Books &amp; Comics</fullName>
+                <default>false</default>
+                <label>Books &amp; Comics</label>
+            </value>
+            <value>
+                <fullName>Communication (Text/Video/Voice)</fullName>
+                <default>false</default>
+                <label>Communication (Text/Video/Voice)</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Fitness</fullName>
+                <default>false</default>
+                <label>Health &amp; Fitness</label>
+            </value>
+            <value>
+                <fullName>Kids</fullName>
+                <default>false</default>
+                <label>Kids</label>
+            </value>
+            <value>
+                <fullName>Lifestyle</fullName>
+                <default>false</default>
+                <label>Lifestyle</label>
+            </value>
+            <value>
+                <fullName>Magazines</fullName>
+                <default>false</default>
+                <label>Magazines</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>Navigation/GPS/LBS</fullName>
+                <default>false</default>
+                <label>Navigation/GPS/LBS</label>
+            </value>
+            <value>
+                <fullName>News &amp; Weather</fullName>
+                <default>false</default>
+                <label>News &amp; Weather</label>
+            </value>
+            <value>
+                <fullName>Novelty</fullName>
+                <default>false</default>
+                <label>Novelty</label>
+            </value>
+            <value>
+                <fullName>Photography (Browsing/Sharing)</fullName>
+                <default>false</default>
+                <label>Photography (Browsing/Sharing)</label>
+            </value>
+            <value>
+                <fullName>Podcasts</fullName>
+                <default>false</default>
+                <label>Podcasts</label>
+            </value>
+            <value>
+                <fullName>Productivity</fullName>
+                <default>false</default>
+                <label>Productivity</label>
+            </value>
+            <value>
+                <fullName>Real Estate</fullName>
+                <default>false</default>
+                <label>Real Estate</label>
+            </value>
+            <value>
+                <fullName>Reference</fullName>
+                <default>false</default>
+                <label>Reference</label>
+            </value>
+            <value>
+                <fullName>Ringtones</fullName>
+                <default>false</default>
+                <label>Ringtones</label>
+            </value>
+            <value>
+                <fullName>Shopping</fullName>
+                <default>false</default>
+                <label>Shopping</label>
+            </value>
+            <value>
+                <fullName>Social Networking</fullName>
+                <default>false</default>
+                <label>Social Networking</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Themes</fullName>
+                <default>false</default>
+                <label>Themes</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>Web Browsers</fullName>
+                <default>false</default>
+                <label>Web Browsers</label>
+            </value>
+            <value>
+                <fullName>Video</fullName>
+                <default>false</default>
+                <label>Video</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Books &amp; Comics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Communication (Text/Video/Voice)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Education</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Entertainment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Health &amp; Fitness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Kids</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Lifestyle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Magazines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Music</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Navigation/GPS/LBS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>News &amp; Weather</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Novelty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Photography (Browsing/Sharing)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Podcasts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Productivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Real Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Reference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Ringtones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Shopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Social Networking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Sports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Themes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Travel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Utilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Web Browsers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Non-Game</controllingFieldValue>
+            <valueName>Video</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

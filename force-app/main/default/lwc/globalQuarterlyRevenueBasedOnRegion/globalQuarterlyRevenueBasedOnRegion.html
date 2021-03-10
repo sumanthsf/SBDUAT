@@ -1,0 +1,60 @@
+<template>
+    <lightning-card title="Region Based Quarterly Revenue">
+        <lightning-layout horizontal-align="center">
+            <lightning-layout-item size="3" style="padding-left:10px;padding-right:25px;">
+
+                <lightning-combobox name="Region" label="Region" value={value} placeholder="--Select Region--"
+                    options={TerritoryPicklist} onchange={handleChange}>
+                </lightning-combobox>
+
+            </lightning-layout-item>
+            <lightning-layout-item size="3" style="padding-right:25px;">
+                <template if:true={stageoptions.data}>
+                    <lightning-combobox name="Stage" label="Stage" value={stagevalue} placeholder="--Select Stage--"
+                        options={stageoptions.data.values} onchange={handlestageoption}>
+                    </lightning-combobox>
+                </template>
+            </lightning-layout-item>
+            <lightning-layout-item size="3" style="padding-right:25px;">
+                <lightning-combobox name="Team Lead" label="Team Lead" value={managername} placeholder="--Select Lead--"
+                    options={optyOwnerManagerData} onchange={handleLeadChange}>
+                </lightning-combobox>
+            </lightning-layout-item>
+            <lightning-layout-item size="3" style="padding-right:10px;">
+                <lightning-combobox name="year" label="Year" value={yearvalue} placeholder="--Select FY--"
+                    options={yearoptions} onchange={handleYearChange}>
+                </lightning-combobox>
+            </lightning-layout-item>
+        </lightning-layout>
+        <template if:true={detiltable}>
+            <a target="_self" class="slds-button" download="ExportToCSV.csv" href={hrefdata} onclick={downloadCSVFile}
+                style="margin-left: 10px;" slot="actions">Download Excel</a>
+        </template>
+        <div class="slds-align_absolute-center slds-p-top_small slds-p-bottom_small">
+            <lightning-button label="Submit" variant="brand" onclick={handleSubmit}></lightning-button>
+
+        </div>
+
+        <div if:false={isLoaded} class="slds-is-relative">
+            <lightning-spinner alternative-text="Loading..." variant="brand">
+            </lightning-spinner>
+        </div>
+        <div class="slds-p-around_small" style="height: 300px; width: 100%;">
+            <template if:true={basictable}>
+                <lightning-datatable data={reportWrapper} columns={columns} key-field="Id" hide-checkbox-column="true"
+                    enable-infinite-loading="true">
+                </lightning-datatable>
+            </template>
+            <template if:true={detiltable}>
+                <lightning-datatable data={detailReportWrapper} columns={detailcolumns} key-field="Id"
+                    hide-checkbox-column="true" enable-infinite-loading="true">
+                </lightning-datatable>
+            </template>
+        </div>
+        <div class="slds-align_absolute-center slds-p-top_small slds-p-bottom_small">
+            <lightning-input type="toggle" name="toggleButton" id="tglbtn" label="Detail Rows" message-toggle-active=""
+                message-toggle-inactive="" onchange={getToggleButtonValue} class="toggleButton slds-p-right_medium">
+            </lightning-input>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Report_View</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>App_Category__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Target_Launch_Timing__c</columns>
+    <columns>Status_Notes__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>contains</operation>
+        <value>pmenor,gcheng,kfong,djohnson,ghowell</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Prospect,NDA,Technical Evaluation,Negotiation,Contract Review</value>
+    </filters>
+    <label>Opportunity Report View</label>
+    <sharedTo>
+        <group>Peripherals_Business_Planning_Direct_Lv</group>
+        <group>Peripherals_Business_Planning_Manager_Lv</group>
+        <group>Software_Business_Planning_Direct_Lvl</group>
+        <group>Software_Business_Planning_Manager_Lvl</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Lost_Reason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the main reason for why the opportunity was Close/Lost. If not listed, select Reason Not Listed/Other and provide more details in the Description field.</inlineHelpText>
+    <label>Close/Lost Reason</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Customer cannot meet minimum budget</fullName>
+                <default>false</default>
+                <label>1. Customer cannot meet minimum budget</label>
+            </value>
+            <value>
+                <fullName>2. Desire for reporting or data that we don&apos;t offer</fullName>
+                <default>false</default>
+                <label>2. Desire for reporting or data that we don&apos;t offer</label>
+            </value>
+            <value>
+                <fullName>3. Desire for adtech functionality that we don&apos;t offer</fullName>
+                <default>false</default>
+                <label>3. Desire for adtech functionality that we don&apos;t offer</label>
+            </value>
+            <value>
+                <fullName>4. Products are too expensive</fullName>
+                <default>false</default>
+                <label>4. Products are too expensive</label>
+            </value>
+            <value>
+                <fullName>5. Net Ads operational constraint - Creative</fullName>
+                <default>false</default>
+                <label>5. Net Ads operational constraint - Creative</label>
+            </value>
+            <value>
+                <fullName>6. Net Ads operational constraint - Finance</fullName>
+                <default>false</default>
+                <label>6. Net Ads operational constraint - Finance</label>
+            </value>
+            <value>
+                <fullName>7. Net Ads operational constraint - Legal</fullName>
+                <default>false</default>
+                <label>7. Net Ads operational constraint - Legal</label>
+            </value>
+            <value>
+                <fullName>8. Net Ads operational constraint - Other</fullName>
+                <default>false</default>
+                <label>8. Net Ads operational constraint - Other</label>
+            </value>
+            <value>
+                <fullName>9. External operational constraint</fullName>
+                <default>false</default>
+                <label>9. External operational constraint</label>
+            </value>
+            <value>
+                <fullName>10. Reason Not Listed/Other</fullName>
+                <default>false</default>
+                <label>10. Reason Not Listed/Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>1. Customer cannot meet minimum budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>2. Desire for reporting or data that we don&apos;t offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>3. Desire for adtech functionality that we don&apos;t offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>4. Products are too expensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>5. Net Ads operational constraint - Creative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>6. Net Ads operational constraint - Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>7. Net Ads operational constraint - Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>8. Net Ads operational constraint - Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>9. External operational constraint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>10. Reason Not Listed/Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

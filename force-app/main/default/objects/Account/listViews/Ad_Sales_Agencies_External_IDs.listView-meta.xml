@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ad_Sales_Agencies_External_IDs</fullName>
+    <booleanFilter>(1 OR 2 OR 3 OR 4) AND 5</booleanFilter>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Territory__c</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>Freewheel_ID__c</columns>
+    <columns>SAP_Customer_No__c</columns>
+    <columns>VAT_No__c</columns>
+    <columns>Company_No__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Freewheel_ID__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Company_No__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>SAP_Customer_No__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>VAT_No__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.SIE_RT_Agency</value>
+    </filters>
+    <label>Ad Sales - Agencies External IDs</label>
+</ListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SNE_Involved__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>SNE is involved with deal.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check box if SNE is involved in discussions</inlineHelpText>
+    <label>SNE Involved?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

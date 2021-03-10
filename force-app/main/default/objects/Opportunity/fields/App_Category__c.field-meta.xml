@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>App_Category__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select as many applicable app categories.</inlineHelpText>
+    <label>App Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Augmented Reality</fullName>
+                <default>false</default>
+                <label>Augmented Reality</label>
+            </value>
+            <value>
+                <fullName>Books &amp; Comics</fullName>
+                <default>false</default>
+                <label>Books &amp; Comics</label>
+            </value>
+            <value>
+                <fullName>Commerce/Shopping</fullName>
+                <default>false</default>
+                <label>Commerce/Shopping</label>
+            </value>
+            <value>
+                <fullName>Communication (Text/Video/Voice)</fullName>
+                <default>false</default>
+                <label>Communication (Text/Video/Voice)</label>
+            </value>
+            <value>
+                <fullName>Creative/Art</fullName>
+                <default>false</default>
+                <label>Creative/Art</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+                <label>Entertainment</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>GPS/LBS/Navigation</fullName>
+                <default>false</default>
+                <label>GPS/LBS/Navigation</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Fitness</fullName>
+                <default>false</default>
+                <label>Health &amp; Fitness</label>
+            </value>
+            <value>
+                <fullName>Kids</fullName>
+                <default>false</default>
+                <label>Kids</label>
+            </value>
+            <value>
+                <fullName>Lifestyle</fullName>
+                <default>false</default>
+                <label>Lifestyle</label>
+            </value>
+            <value>
+                <fullName>Magazines</fullName>
+                <default>false</default>
+                <label>Magazines</label>
+            </value>
+            <value>
+                <fullName>Music</fullName>
+                <default>false</default>
+                <label>Music</label>
+            </value>
+            <value>
+                <fullName>News &amp; Weather</fullName>
+                <default>false</default>
+                <label>News &amp; Weather</label>
+            </value>
+            <value>
+                <fullName>Novelty</fullName>
+                <default>false</default>
+                <label>Novelty</label>
+            </value>
+            <value>
+                <fullName>Photo (Browsing/Sharing)</fullName>
+                <default>false</default>
+                <label>Photo (Browsing/Sharing)</label>
+            </value>
+            <value>
+                <fullName>Podcasts</fullName>
+                <default>false</default>
+                <label>Podcasts</label>
+            </value>
+            <value>
+                <fullName>Productivity</fullName>
+                <default>false</default>
+                <label>Productivity</label>
+            </value>
+            <value>
+                <fullName>Reference</fullName>
+                <default>false</default>
+                <label>Reference</label>
+            </value>
+            <value>
+                <fullName>Serious Game</fullName>
+                <default>false</default>
+                <label>Serious Game</label>
+            </value>
+            <value>
+                <fullName>Social Networking</fullName>
+                <default>false</default>
+                <label>Social Networking</label>
+            </value>
+            <value>
+                <fullName>Sports</fullName>
+                <default>false</default>
+                <label>Sports</label>
+            </value>
+            <value>
+                <fullName>Strategy Guide</fullName>
+                <default>false</default>
+                <label>Strategy Guide</label>
+            </value>
+            <value>
+                <fullName>Themes</fullName>
+                <default>false</default>
+                <label>Themes</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>Video</fullName>
+                <default>false</default>
+                <label>Video</label>
+            </value>
+            <value>
+                <fullName>Web Browsers</fullName>
+                <default>false</default>
+                <label>Web Browsers</label>
+            </value>
+            <value>
+                <fullName>Games</fullName>
+                <default>false</default>
+                <label>Games</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

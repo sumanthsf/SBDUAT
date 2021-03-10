@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Lost_Rsn_Category_VR</fullName>
+    <active>true</active>
+    <description>When Stage = Closed/Lost, and Reason Category is &quot;10. Reason Not Listed/Other&quot;, the Description should not be NULL.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Close_Lost_Reason__c, &quot;10. Reason Not Listed/Other&quot;), ISBLANK( Close_Lost_Reason_Description__c ))</errorConditionFormula>
+    <errorDisplayField>Close_Lost_Reason_Description__c</errorDisplayField>
+    <errorMessage>Please enter more details into the Close Lost Reason Description Field and then save your Stage and/or Category.</errorMessage>
+</ValidationRule>

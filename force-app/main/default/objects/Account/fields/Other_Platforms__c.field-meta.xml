@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_Platforms__c</fullName>
+    <externalId>false</externalId>
+    <label>Other Platforms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Android</fullName>
+                <default>false</default>
+                <label>Android</label>
+            </value>
+            <value>
+                <fullName>Bada</fullName>
+                <default>false</default>
+                <label>Bada</label>
+            </value>
+            <value>
+                <fullName>iOS</fullName>
+                <default>false</default>
+                <label>iOS</label>
+            </value>
+            <value>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+                <label>Microsoft</label>
+            </value>
+            <value>
+                <fullName>Nintendo</fullName>
+                <default>false</default>
+                <label>Nintendo</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>PlayStation 2</fullName>
+                <default>false</default>
+                <label>PlayStation 2</label>
+            </value>
+            <value>
+                <fullName>PlayStation 3</fullName>
+                <default>false</default>
+                <label>PlayStation 3</label>
+            </value>
+            <value>
+                <fullName>PSP</fullName>
+                <default>false</default>
+                <label>PSP</label>
+            </value>
+            <value>
+                <fullName>RIM</fullName>
+                <default>false</default>
+                <label>RIM</label>
+            </value>
+            <value>
+                <fullName>Sony Smartphone</fullName>
+                <default>false</default>
+                <label>Sony Smartphone</label>
+            </value>
+            <value>
+                <fullName>Sony Tablet</fullName>
+                <default>false</default>
+                <label>Sony Tablet</label>
+            </value>
+            <value>
+                <fullName>Sony TV</fullName>
+                <default>false</default>
+                <label>Sony TV</label>
+            </value>
+            <value>
+                <fullName>Symbian</fullName>
+                <default>false</default>
+                <label>Symbian</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

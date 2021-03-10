@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actual_Close_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The actual date on which the opportunity was closed and the IO was signed. Please populate this field as &quot;Close Date&quot; gets updated when edits are made to Close/Won opps</inlineHelpText>
+    <label>Actual Close Date</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

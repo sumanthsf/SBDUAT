@@ -1,0 +1,7 @@
+.THIS .slds-icon{
+    width: 1.1rem !important;
+}
+.THIS.modal-backdrop
+{
+    position:inherit;
+}

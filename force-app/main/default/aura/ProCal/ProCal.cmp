@@ -1,0 +1,66 @@
+<aura:component controller="ProductController" implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes" access="global" >
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    
+    <ltng:require styles="{! $Resource.fullcalendar + '/fullcalendar-3.9.0/fullcalendar.css'}"/> 
+                 <!-- scripts="{!join(',', 
+                           $Resource.jquery224 , $Resource.JQueryUI, $Resource.bootstrap431 + '/bootstrap-4.3.1-dist/js/bootstrap.min.js' , $Resource.fullcalendar + '/fullcalendar-3.9.0/lib/moment.min.js', $Resource.fullcalendar + '/fullcalendar-3.9.0/fullcalendar.js')
+                           }" afterScriptsLoaded="{!c.scriptsLoaded}"/>
+    <ltng:require styles="resource/fullcalendar/fullcalendar-3.9.0/fullcalendar.css, resource/bootstrap431/bootstrap-4.3.1-dist/css/bootstrap.min.css "/>-->
+    <ltng:require styles="{!$Resource.bootstrapcss}" 
+      scripts="{!join(',', 
+        $Resource.jquery224 , $Resource.JQueryUI ,$Resource.fullcalendar + '/fullcalendar-3.9.0/lib/moment.min.js', $Resource.fullcalendar + '/fullcalendar-3.9.0/fullcalendar.js',
+        $Resource.bootstrap431 + '/bootstrap-4.3.1-dist/js/bootstrap.min.js')
+      }" afterScriptsLoaded="{!c.scriptsLoaded}"/>
+    
+    <aura:attribute name="Objectlist" type="Object[]"/>
+    <aura:attribute name="Objectgrid" type="Object[]"/>
+    <aura:attribute name="buttonstate" type="Boolean" default="false"/>
+    
+    <lightning:buttonStateful
+                              labelWhenOff="List View"
+                              labelWhenOn="Grid View"
+                              state="{!v.buttonstate}"
+                              onclick="{!c.handleClick}"/>
+   
+    <div align="right">
+    <button id="prev-year" class="slds-button slds-button_neutral">Prev year</button>
+    <button id="next-year"  class="slds-button slds-button_neutral">Next year</button>
+    <select id="months-tab">
+        <option data-month="0">January</option>
+        <option data-month="1">February</option>
+        <option data-month="2">March</option>
+        <option data-month="3">April</option>
+        <option data-month="4">May</option>
+        <option data-month="5">June</option>
+        <option data-month="6">July</option>
+        <option data-month="7">August</option>
+        <option data-month="8">September</option>
+        <option data-month="9">October</option>
+        <option data-month="10">November</option>
+        <option data-month="11">December</option>
+	</select>
+        </div>
+
+    <div id='calendar' class="slds-card">
+    
+    </div>
+    <div id="listcalendar" class="slds-card"/>
+          
+   	<div id="fullCalModal" class="modal show">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 id="modalTitle" class="modal-title"></h4>
+            </div>
+            <div id="modalBody" class="modal-body"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button class="btn btn-primary"><a id="eventUrl" target="_blank">Details</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+  
+</aura:component>

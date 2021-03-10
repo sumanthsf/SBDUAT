@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdSales_CF_KPI__c</fullName>
+    <externalId>false</externalId>
+    <label>KPI</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Views</fullName>
+                <default>false</default>
+                <label>Views</label>
+            </value>
+            <value>
+                <fullName>Imp/Delivery</fullName>
+                <default>false</default>
+                <label>Imp/Delivery</label>
+            </value>
+            <value>
+                <fullName>Total Reach</fullName>
+                <default>false</default>
+                <label>Total Reach</label>
+            </value>
+            <value>
+                <fullName>Audience Reach</fullName>
+                <default>false</default>
+                <label>Audience Reach</label>
+            </value>
+            <value>
+                <fullName>Sales/Revenue</fullName>
+                <default>false</default>
+                <label>Sales/Revenue</label>
+            </value>
+            <value>
+                <fullName>Downloads</fullName>
+                <default>false</default>
+                <label>Downloads</label>
+            </value>
+            <value>
+                <fullName>VCR</fullName>
+                <default>false</default>
+                <label>VCR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory__c</fullName>
+    <description>Territory for account</description>
+    <externalId>false</externalId>
+    <label>Territory</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SIEA</fullName>
+                <default>true</default>
+                <label>SIEA</label>
+            </value>
+            <value>
+                <fullName>SIEE</fullName>
+                <default>false</default>
+                <label>SIEE</label>
+            </value>
+            <value>
+                <fullName>SIEJ</fullName>
+                <default>false</default>
+                <label>SIEJ</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Launch_Timing__c</fullName>
+    <description>Previously Estimated Launch Date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Estimated date when app will launch</inlineHelpText>
+    <label>Target Launch Timing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not yet determined</fullName>
+                <default>true</default>
+                <label>Not yet determined</label>
+            </value>
+            <value>
+                <fullName>FYE 12 Q4</fullName>
+                <default>false</default>
+                <label>FYE 12 Q4</label>
+            </value>
+            <value>
+                <fullName>FYE 13 Q1</fullName>
+                <default>false</default>
+                <label>FYE 13 Q1</label>
+            </value>
+            <value>
+                <fullName>FYE 13 Q2</fullName>
+                <default>false</default>
+                <label>FYE 13 Q2</label>
+            </value>
+            <value>
+                <fullName>FYE 13 Q3</fullName>
+                <default>false</default>
+                <label>FYE 13 Q3</label>
+            </value>
+            <value>
+                <fullName>FYE 13 Q4</fullName>
+                <default>false</default>
+                <label>FYE 13 Q4</label>
+            </value>
+            <value>
+                <fullName>FYE 14 Q1</fullName>
+                <default>false</default>
+                <label>FYE 14 Q1</label>
+            </value>
+            <value>
+                <fullName>FYE 14 Q2</fullName>
+                <default>false</default>
+                <label>FYE 14 Q2</label>
+            </value>
+            <value>
+                <fullName>FYE 14 Q3</fullName>
+                <default>false</default>
+                <label>FYE 14 Q3</label>
+            </value>
+            <value>
+                <fullName>FYE 14 Q4</fullName>
+                <default>false</default>
+                <label>FYE 14 Q4</label>
+            </value>
+            <value>
+                <fullName>FYE 15 Q1</fullName>
+                <default>false</default>
+                <label>FYE 15 Q1</label>
+            </value>
+            <value>
+                <fullName>FYE 15 Q2</fullName>
+                <default>false</default>
+                <label>FYE 15 Q2</label>
+            </value>
+            <value>
+                <fullName>FYE 15 Q3</fullName>
+                <default>false</default>
+                <label>FYE 15 Q3</label>
+            </value>
+            <value>
+                <fullName>FYE 15 Q4</fullName>
+                <default>false</default>
+                <label>FYE 15 Q4</label>
+            </value>
+            <value>
+                <fullName>FYE 16 Q1</fullName>
+                <default>false</default>
+                <label>FYE 16 Q1</label>
+            </value>
+            <value>
+                <fullName>FYE 16 Q2</fullName>
+                <default>false</default>
+                <label>FYE 16 Q2</label>
+            </value>
+            <value>
+                <fullName>FYE 16 Q3</fullName>
+                <default>false</default>
+                <label>FYE 16 Q3</label>
+            </value>
+            <value>
+                <fullName>FYE 16 Q4</fullName>
+                <default>false</default>
+                <label>FYE 16 Q4</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

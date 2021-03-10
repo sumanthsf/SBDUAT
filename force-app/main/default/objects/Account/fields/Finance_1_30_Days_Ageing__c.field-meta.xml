@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finance_1_30_Days_Ageing__c</fullName>
+    <description>Invoiced amount that is past due by between 1-30 days per SAP</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Invoiced amount that is past due by between 1-30 days per SAP</inlineHelpText>
+    <label>1-30 Days Ageing</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

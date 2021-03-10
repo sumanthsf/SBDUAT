@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloseDate</fullName>
+    <inlineHelpText>Estimated close date (final contract signed). This field will update to today&apos;s date when Opportunity Stage is moved to Closed/Won and everytime it&apos;s edited after.</inlineHelpText>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

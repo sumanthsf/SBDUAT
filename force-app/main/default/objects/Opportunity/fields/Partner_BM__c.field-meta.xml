@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_BM__c</fullName>
+    <externalId>false</externalId>
+    <label>Partner BM</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Sony_Partner__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Antony Clark</fullName>
+                <default>false</default>
+                <label>Antony Clark</label>
+            </value>
+            <value>
+                <fullName>Ashley Nutter</fullName>
+                <default>false</default>
+                <label>Ashley Nutter</label>
+            </value>
+            <value>
+                <fullName>Dwayne Benefield</fullName>
+                <default>false</default>
+                <label>Dwayne Benefield</label>
+            </value>
+            <value>
+                <fullName>Hiroshi Yasukawa</fullName>
+                <default>false</default>
+                <label>Hiroshi Yasukawa</label>
+            </value>
+            <value>
+                <fullName>Jolene Colquhoun</fullName>
+                <default>false</default>
+                <label>Jolene Colquhoun</label>
+            </value>
+            <value>
+                <fullName>Jonathan Tate</fullName>
+                <default>false</default>
+                <label>Jonathan Tate</label>
+            </value>
+            <value>
+                <fullName>Leon Vanshelbaum</fullName>
+                <default>false</default>
+                <label>Leon Vanshelbaum</label>
+            </value>
+            <value>
+                <fullName>Mark Patton</fullName>
+                <default>false</default>
+                <label>Mark Patton</label>
+            </value>
+            <value>
+                <fullName>Matthew Davies</fullName>
+                <default>false</default>
+                <label>Matthew Davies</label>
+            </value>
+            <value>
+                <fullName>Nainan Shah</fullName>
+                <default>false</default>
+                <label>Nainan Shah</label>
+            </value>
+            <value>
+                <fullName>Ramon Redondo</fullName>
+                <default>false</default>
+                <label>Ramon Redondo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SNE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Ashley Nutter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SNE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Dwayne Benefield</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SNE</controllingFieldValue>
+            <valueName>Jonathan Tate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SNE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Leon Vanshelbaum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SNE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Mark Patton</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SNE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Ramon Redondo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SCEE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Antony Clark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SCEE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Jolene Colquhoun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SCEE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Matthew Davies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SCEE</controllingFieldValue>
+            <controllingFieldValue>SNE &amp; SCEE</controllingFieldValue>
+            <valueName>Nainan Shah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SCEI</controllingFieldValue>
+            <valueName>Hiroshi Yasukawa</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

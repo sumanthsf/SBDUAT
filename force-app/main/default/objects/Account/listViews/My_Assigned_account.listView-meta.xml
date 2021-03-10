@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Assigned_account</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>AdSales_CF_Number_of_Working_Opps__c</columns>
+    <columns>AdSales_CF_Total_Working_Revenue__c</columns>
+    <columns>AdSales_CF_Revenue_Achieved__c</columns>
+    <columns>ACCOUNT.LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <label>AdSales - My Accounts</label>
+</ListView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAT_Multiplier__c</fullName>
+    <description>If Billing Country of Bill-To account is UK, VAT multiplier is 1.2, otherwise it is 1. If 0, then Bill-To Account Billing Country is not populated.</description>
+    <externalId>false</externalId>
+    <formula>IF(or(ISBLANK( Bill_To__c ),isblank( Bill_To__r.BillingCountry )),0,if( OR(Bill_To__r.BillingCountry =&quot;United Kingdom&quot;,Bill_To__r.BillingCountry =&quot;UK&quot;),1.2,1))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If Billing Country of Bill-To account is UK, VAT multiplier is 1.2, otherwise it is 1. If 0, then Bill-To Account Billing Country is not populated.</inlineHelpText>
+    <label>VAT Multiplier</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

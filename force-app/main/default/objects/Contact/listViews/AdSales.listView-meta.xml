@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <fullName>AdSales</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.AdSales_RT_Contact_Record</value>
+    </filters>
+    <label>AdSales - All Contacts</label>
+    <sharedTo>
+        <roleAndSubordinates>Account_Manager_OPS</roleAndSubordinates>
+        <roleAndSubordinates>Director_CP</roleAndSubordinates>
+        <roleAndSubordinates>Director_CSM</roleAndSubordinates>
+    </sharedTo>
+</ListView>

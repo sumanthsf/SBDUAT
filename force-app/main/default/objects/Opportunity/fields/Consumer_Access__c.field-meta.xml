@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumer_Access__c</fullName>
+    <description>Other devices where consumers can access the application.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This section to be completed in &quot;Partnership Summary&quot; deck</inlineHelpText>
+    <label>Consumer Access</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All web connected devices</fullName>
+                <default>false</default>
+                <label>All web connected devices</label>
+            </value>
+            <value>
+                <fullName>iOS devices</fullName>
+                <default>false</default>
+                <label>iOS devices</label>
+            </value>
+            <value>
+                <fullName>Android devices</fullName>
+                <default>false</default>
+                <label>Android devices</label>
+            </value>
+            <value>
+                <fullName>RIM</fullName>
+                <default>false</default>
+                <label>RIM</label>
+            </value>
+            <value>
+                <fullName>Microsoft</fullName>
+                <default>false</default>
+                <label>Microsoft</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IfLeapYear__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(MOD( $Setup.User_Selected_Year__c.User_Selected_FY__c +1 ,400)=0,
+AND(
+MOD($Setup.User_Selected_Year__c.User_Selected_FY__c +1,4)=0,
+MOD($Setup.User_Selected_Year__c.User_Selected_FY__c +1,100)&lt;&gt;0
+)
+),29,28)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>IfLeapYear</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

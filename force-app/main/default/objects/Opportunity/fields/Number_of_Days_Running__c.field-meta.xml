@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Days_Running__c</fullName>
+    <description>Calculates the # of days the campaign is running based on the Opportunity Start and End Date</description>
+    <externalId>false</externalId>
+    <formula>Opportunity_End_Date__c -  Opportunity_Start_Date__c+1</formula>
+    <inlineHelpText>Calculates the # of days the campaign is running based on the Opportunity Start and End Date</inlineHelpText>
+    <label>Number of Days Running</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

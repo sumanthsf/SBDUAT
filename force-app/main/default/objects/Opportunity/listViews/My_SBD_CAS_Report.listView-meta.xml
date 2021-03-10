@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_SBD_CAS_Report</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Base_Title__c</columns>
+    <columns>Platform__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Target_Launch_Timing__c</columns>
+    <columns>Launch_date__c</columns>
+    <columns>CAS_ID__c</columns>
+    <columns>BAS_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.SBD</value>
+    </filters>
+    <filters>
+        <field>CAS__c</field>
+        <operation>equals</operation>
+        <value>Submit</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FULL_NAME</field>
+        <operation>contains</operation>
+        <value>Menor</value>
+    </filters>
+    <label>My_CAS Report</label>
+    <sharedTo>
+        <group>SBD_MandEGroup</group>
+        <group>SBD_Team_NGA_Opportunity_Report</group>
+    </sharedTo>
+</ListView>

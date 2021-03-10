@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SAP_Customer_Num__c</fullName>
+    <description>SAP Customer Number of the billable party</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK( Bill_To__c )),  Bill_To__r.SAP_Customer_No__c  ,if( NOT(ISBLANK(  Agency_Name__c  )) , Agency_Name__r.SAP_Customer_No__c,Account.SAP_Customer_No__c) )</formula>
+    <inlineHelpText>If there is an Agency, this is the SAP Customer # of the Agency. If not, then it&apos;s of the Advertiser</inlineHelpText>
+    <label>SAP Customer No</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdSales_CF_Age_Demo__c</fullName>
+    <externalId>false</externalId>
+    <label>Age Demo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Under 13</fullName>
+                <default>false</default>
+                <label>Under 13</label>
+            </value>
+            <value>
+                <fullName>13-17</fullName>
+                <default>false</default>
+                <label>13-17</label>
+            </value>
+            <value>
+                <fullName>18-24</fullName>
+                <default>false</default>
+                <label>18-24</label>
+            </value>
+            <value>
+                <fullName>25-34</fullName>
+                <default>false</default>
+                <label>25-34</label>
+            </value>
+            <value>
+                <fullName>35-44</fullName>
+                <default>false</default>
+                <label>35-44</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

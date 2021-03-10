@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SCEE_Partner__c</fullName>
+    <externalId>false</externalId>
+    <label>SCEE Partner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Antony Clark</fullName>
+                <default>false</default>
+                <label>Antony Clark</label>
+            </value>
+            <value>
+                <fullName>Jolene Colquhoun</fullName>
+                <default>false</default>
+                <label>Jolene Colquhoun</label>
+            </value>
+            <value>
+                <fullName>Kathrin Strangfeld</fullName>
+                <default>false</default>
+                <label>Kathrin Strangfeld</label>
+            </value>
+            <value>
+                <fullName>Mathew Davies</fullName>
+                <default>false</default>
+                <label>Mathew Davies</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

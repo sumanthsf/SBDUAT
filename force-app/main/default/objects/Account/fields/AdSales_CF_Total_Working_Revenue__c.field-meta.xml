@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdSales_CF_Total_Working_Revenue__c</fullName>
+    <externalId>false</externalId>
+    <label>Total Working Revenue</label>
+    <summarizedField>Opportunity.AdSales_CF_Total_Revenue__c</summarizedField>
+    <summaryFilterItems>
+        <field>Opportunity.StageName</field>
+        <operation>equals</operation>
+        <value>Opportunity Created, Proposal Sent to Account, In Negotiation, Inventory Reserved, In Contract</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

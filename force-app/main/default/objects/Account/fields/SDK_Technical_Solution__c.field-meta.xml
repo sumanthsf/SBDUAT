@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDK_Technical_Solution__c</fullName>
+    <externalId>false</externalId>
+    <label>SDK/Technical Solution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not yet determined</fullName>
+                <default>false</default>
+                <label>Not yet determined</label>
+            </value>
+            <value>
+                <fullName>Native</fullName>
+                <default>false</default>
+                <label>Native</label>
+            </value>
+            <value>
+                <fullName>PSM</fullName>
+                <default>false</default>
+                <label>PSM</label>
+            </value>
+            <value>
+                <fullName>Trilithium</fullName>
+                <default>false</default>
+                <label>Trilithium</label>
+            </value>
+            <value>
+                <fullName>WebMaf</fullName>
+                <default>false</default>
+                <label>WebMaf</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

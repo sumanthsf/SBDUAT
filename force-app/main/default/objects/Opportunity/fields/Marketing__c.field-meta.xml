@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Does branding fit Playstation?
+Does service conflict with other active services on platform?
+Partner marketing commitment to Playstation?
+Can partner sufficiently market the app?</inlineHelpText>
+    <label>Marketing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

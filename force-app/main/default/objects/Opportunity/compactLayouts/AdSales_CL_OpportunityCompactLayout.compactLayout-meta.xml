@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdSales_CL_OpportunityCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>AdSales_CF_Total_Revenue__c</fields>
+    <fields>Amount</fields>
+    <fields>Opportunity_Start_Date__c</fields>
+    <fields>Opportunity_End_Date__c</fields>
+    <fields>AdSales_CF_Contract_Id__c</fields>
+    <fields>Client_Partner__c</fields>
+    <fields>AdSales_CF_Client_Solutions_Manager__c</fields>
+    <fields>Ad_Ops_Manager__c</fields>
+    <label>AdSales Opportunity Compact Layout</label>
+</CompactLayout>

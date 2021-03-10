@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Freewheel_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Identifier for the advertiser or agency ID in Freewheel</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Identifier for the advertiser or agency ID in Freewheel</inlineHelpText>
+    <label>Freewheel ID</label>
+    <length>12</length>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

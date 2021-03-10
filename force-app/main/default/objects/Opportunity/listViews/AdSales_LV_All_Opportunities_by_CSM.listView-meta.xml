@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdSales_LV_All_Opportunities_by_CSM</fullName>
+    <columns>AdSales_CF_Client_Solutions_Manager__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>AdSales_CF_Contract_Id__c</columns>
+    <columns>AdSales_CF_Total_Revenue__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Opportunity_Start_Date__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>notContain</operation>
+        <value>TEST</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.AdSales_RT_Opportunity</value>
+    </filters>
+    <label>AdSales - All Opportunities by CSM</label>
+</ListView>

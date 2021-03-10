@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Target_Region_Countries_Territories__c</fullName>
+    <externalId>false</externalId>
+    <label>Target Region/Countries/Territories</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>US</fullName>
+                <default>false</default>
+                <label>US</label>
+            </value>
+            <value>
+                <fullName>US,Canada</fullName>
+                <default>false</default>
+                <label>US,Canada</label>
+            </value>
+            <value>
+                <fullName>SCEA Region(US,Canada,LATAM)</fullName>
+                <default>false</default>
+                <label>SCEA Region(US,Canada,LATAM)</label>
+            </value>
+            <value>
+                <fullName>LATAM</fullName>
+                <default>false</default>
+                <label>LATAM</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+                <label>Brazil</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

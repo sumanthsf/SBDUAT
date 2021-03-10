@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Lost_Reason_Category__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the primary reason for why the opportunity was Close/Lost. If not listed, select Reason Not Listed/Other and provide more details in the Description field</inlineHelpText>
+    <label>Close/Lost Reason Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Customer cannot meet minimum budget</fullName>
+                <default>false</default>
+                <label>1. Customer cannot meet minimum budget</label>
+            </value>
+            <value>
+                <fullName>2. Desire for reporting or data not currently offered</fullName>
+                <default>false</default>
+                <label>2. Desire for reporting or data not currently offered</label>
+            </value>
+            <value>
+                <fullName>3. Desire for adtech functionality not currently offered</fullName>
+                <default>false</default>
+                <label>3. Desire for adtech functionality not currently offered</label>
+            </value>
+            <value>
+                <fullName>4. Value Proposition not compelling enough</fullName>
+                <default>false</default>
+                <label>4. Value Proposition not compelling enough</label>
+            </value>
+            <value>
+                <fullName>5. Operational constraint - Creative</fullName>
+                <default>false</default>
+                <label>5. Operational constraint - Creative</label>
+            </value>
+            <value>
+                <fullName>6. Operational constraint - Finance</fullName>
+                <default>false</default>
+                <label>6. Operational constraint - Finance</label>
+            </value>
+            <value>
+                <fullName>7. Operational constraint - Legal</fullName>
+                <default>false</default>
+                <label>7. Operational constraint - Legal</label>
+            </value>
+            <value>
+                <fullName>8. External operational constraint</fullName>
+                <default>false</default>
+                <label>8. External operational constraint</label>
+            </value>
+            <value>
+                <fullName>9. Reason Not Listed/Other</fullName>
+                <default>false</default>
+                <label>9. Reason Not Listed/Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>1. Customer cannot meet minimum budget</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>2. Desire for reporting or data not currently offered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>3. Desire for adtech functionality not currently offered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>4. Value Proposition not compelling enough</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>5. Operational constraint - Creative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>6. Operational constraint - Finance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>7. Operational constraint - Legal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>8. External operational constraint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>9. Reason Not Listed/Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

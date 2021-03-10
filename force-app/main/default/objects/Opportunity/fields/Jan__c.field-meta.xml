@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Jan__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF((YEAR(Opportunity_Start_Date__c)!=YEAR(Opportunity_End_Date__c) &amp;&amp; YEAR(Opportunity_End_Date__c)=$Setup.User_Selected_Year__c.User_Selected_FY__c) ,0,IF(OR($Setup.User_Selected_Year__c.User_Selected_FY__c&lt;YEAR(Opportunity_Start_Date__c)&amp;&amp; (MONTH(Opportunity_Start_Date__c)&gt;1),YEAR(Opportunity_End_Date__c)&lt;$Setup.User_Selected_Year__c.User_Selected_FY__c),0,(IF(YEAR(Opportunity_Start_Date__c)=YEAR(Opportunity_End_Date__c) &amp;&amp; (MONTH(Opportunity_Start_Date__c)= MONTH(Opportunity_End_Date__c)),0,(If( AND(Number_of_Placements__c =NULL,SBQQ__PrimaryQuote__c = NULL),0,(Amount *((MAX((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c+1,01,31)-Opportunity_Start_Date__c),0)-MAX((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c,12,31)-Opportunity_Start_Date__c),0))-(Max((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c+1,01,31)-Opportunity_End_Date__c),0)-MAX((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c,12,31)-Opportunity_End_Date__c),0))+ if(AND((DATE($Setup.User_Selected_Year__c.User_Selected_FY__c+1,01,31)-Opportunity_Start_Date__c)&gt;-1,(DATE($Setup.User_Selected_Year__c.User_Selected_FY__c+1,01,31)-Opportunity_Start_Date__c)&lt;31),1,0)))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Jan</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
